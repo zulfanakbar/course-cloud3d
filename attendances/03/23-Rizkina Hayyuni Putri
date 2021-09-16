@@ -1,0 +1,46 @@
+# Minggu 3 - Infrastructure as a Service (IaaS) - Compute
+
+## Layanan Computed dalam Oracle
+1. Bare Metal -> khusus untuk kinerja tinggi
+2. Virtual Machine(VM) -> untuk aplikasi yang tidak memerlukan kinerja tinggi
+
+## Shape
+Shape adalah pengaturan untuk menetukan sumber daya yang diperlukan saat pembuatan instance.
+
+Beberapa jenis shape :
+1. Standard Shape
+2. DenseIO Shape
+3. GPU Shape
+4. HPC Shape
+5. Optimized Shape
+
+Masing-masing shape memiliki harga yang berbeda dan harus dipilih sesuai kebutuhan dalam membangun instance.
+
+## Flexible Shape 
+adalah sebuah pengaturan yang dapat membuat kustom beberapa jenis sumber daya seperti CPU dan memory.
+
+Jenis flexible shape :
+1. VM.Standard.E3.Flex (AMD)
+2. VM.Standard.E4.Flex (AMD)
+3. VM.Optimized3.Flex (Intel)
+4. VM.Standard.A1.Flex (Arm processor dari Ampere)
+
+## Komponen ketika membuat VM
+1. Availibility domain
+2. Virtual cloud Network
+3. Key pair(Linux) -> kunci untuk masuk kedalam sistem(Lebih aman dari password, namun jika hilang maka tidak bisa masuk ke dalam sistem lagi)
+4. Tags
+5. Password(Windows)
+6. Image -> Jenis OS yang akan diinstall
+7. Shape
+
+## Ilustrasi VM
+Jadi jika kita memiliki sebuah VM maka akan dapat terhubung ke sebuah storage.
+
+Dalam VM kita memiliki 1 domain/IP public.
+
+Dengan internet, melalui IP public tersebut kita dapat login dari PC kita ke dalam sistem melalui SSH, dengan menggunakan SSH Key. 
+
+Jika menggunakan linux maka langsung dapat membuka SSH dengan mengetikan perintah SSH diterminal.
+
+Untuk windows jika ingin mengakses sistem melalui SSH dapat menggunakan aplikasi Putty.
