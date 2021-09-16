@@ -1,4 +1,4 @@
-*IaaS (Compute)*
+IaaS (Compute)
 
 Jenis-jenis Compute
 - Bare Metal: merupakan instances komputasi bare metal yang memberi Anda akses ke server fisik khusus untuk kinerja tertinggi dan isolasi yang kuat.
