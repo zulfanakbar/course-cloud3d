@@ -32,5 +32,4 @@ Komponen ketika membuat VM
 • Tags
 • Password (untuk Windows)
 • Image
-• Shapes
-
+• Shape
