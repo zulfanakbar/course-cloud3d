@@ -1,0 +1,19 @@
+Komponen-komponen Networking
+
+Jaringan pribadi virtual yang Anda siapkan di pusat data Oracle. Ini sangat mirip dengan jaringan konvensional, dengan aturan firewall dan jenis gateway komunikasi tertentu yang dapat Anda pilih untuk digunakan. Subdivisi yang Anda tentukan dalam VCN . Setiap VNIC memiliki IP pribadi primer, dan Anda dapat menambah dan menghapus IP pribadi sekunder.
+
+DYNAMIC ROUTING GATEWAY menyediakan jalur lalu lintas jaringan pribadi antara VCN Anda dan jaringan lokal. Ini juga dapat menyediakan jalur lalu lintas jaringan pribadi antara VCN Anda dan VCN lain di wilayah yang berbeda. Router virtual yang dapat Anda tambahkan ke VCN Anda untuk memberi akses internet langsung. SERVICE GATEWAY menyediakan jalur untuk lalu lintas jaringan pribadi antara VCN Anda dan layanan yang didukung di Oracle Services Network .
+
+Misalnya, Sistem DB di subnet pribadi di VCN Anda dapat mencadangkan data ke Object Storage tanpa memerlukan alamat IP publik atau akses ke internet. Komponen yang dapat Anda tambahkan ke DRG. Virtual route tables untuk VCN Anda. VCN Anda dilengkapi dengan tabel rute default yang kosong, dan Anda dapat menambahkan tabel rute kustom Anda sendiri.
+
+Aturan firewall virtual untuk VCN Anda. Anda dapat memilih apakah aturan yang diberikan bersifat stateful atau stateless. Misalnya, Anda dapat mengizinkan lalu lintas SSH masuk dari mana saja ke sekumpulan instances dengan menyiapkan aturan ingress stateful dengan CIDR sumber 0.0. 0.0/0, dan port TCP tujuan 22.
+
+Untuk menerapkan aturan keamanan, Anda dapat menggunakan grup keamanan jaringan atau daftar keamanan. VCN mencakup satu atau lebih blok CIDR IPv4 pilihan Anda.
+
+Ukuran VCN dan Batas Address
+
+Anda dapat mengaktifkan IPv6 untuk VCN Anda saat membuatnya, atau Anda dapat mengaktifkan IPv6 pada VCN khusus IPv4 yang ada. Untuk VCN Anda, Oracle merekomendasikan penggunaan rentang alamat IP pribadi yang ditentukan dalam RFC 1918 . Namun, Anda dapat menggunakan rentang yang dapat dirutekan secara publik. Blok CIDR VCN tidak boleh tumpang tindih satu sama lain, dengan CIDR di jaringan lokal Anda, atau dengan CIDR dari VCN lain yang saling terhubung.
+
+Availability Domains dan Gambaran Kerja VCN
+
+VCN Anda berada di satu region Oracle Cloud Infrastructure. Semuanya khusus AD, yang berarti sumber daya subnet harus berada di AD tertentu. Anda dapat memilih jenisnya saat Anda membuat subnet. Kedua jenis subnet dapat hidup berdampingan di VCN yang sama
