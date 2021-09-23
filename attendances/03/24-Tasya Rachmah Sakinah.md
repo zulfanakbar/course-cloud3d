@@ -20,10 +20,10 @@
     - Ketika Anda membuat VM menggunakan flexible shape, pilihan jumlah OCPU dan volume memori yang dibutuhkan dapat disesuaikan.
 
 ## Jenis-jenis Kapasitas
-- On-demand capacity
-- Preemptible capacity
-- Reserved capacity
-- Dedicated capacity
+- On-demand capacity : cukup bayar sesuai dengan kapasitas compute yang kita gunakan saja.
+- Preemptible capacity : berguna saat membutuhkan sumber daya ketika beban kerja meningkat (autoscaling) pada periode waktu tertentu, sehingga lebih hemat biaya
+- Reserved capacity : kapasitas cadangan yang berguna untuk masa yang akan datang sesuai dengan kebutuhan. 
+- Dedicated capacity : menjalankan instance VM pada dedicated server, sehingga sumber daya tidak dibagi dengan client/customer lain.
 
 ## Komponen ketika membuat VM
 - Availability domain
