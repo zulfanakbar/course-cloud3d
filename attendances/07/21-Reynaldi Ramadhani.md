@@ -29,6 +29,3 @@
     - Oracle Customer Experience Cloud
     - Oracle EPM Cloud
     - Oracle Communications Security Shield Cloud
-
-#
-
