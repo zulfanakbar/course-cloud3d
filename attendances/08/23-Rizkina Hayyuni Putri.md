@@ -24,3 +24,6 @@ Yang membutuhkan object storage :
 2. CLI
 3. REST API
 4. OCI SDK
+
+## Garis Besar Jobsheet
+Dalam jobsheet dilakukan praktikum untuk membuat sebuah website statis menggunakan object storage
