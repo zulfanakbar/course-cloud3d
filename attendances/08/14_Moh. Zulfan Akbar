@@ -1,0 +1,29 @@
+RANGKUMAN
+Object Storage adalah teknologi yang mengelola data sebagai objek. Semua data disimpan dalam satu repositori besar yang dapat didistribusikan ke beberapa perangkat penyimpanan fisik tanpa harus dibagi ke dalam file atau folder. Object Storage ini merupakan layanan storage yang khusus menyimpan object-object  seperti contoh: Mp3, Mp4, JPG, GIF dan lain-lain.
+
+Apa perbedaan Object Storage, File Storage dan Block Storage ?
+
+Object Storage merupakan blok data yang membentuk sebuah file atau “objek” dan disimpan bersama dengan metadata nya. Metadata tambahan akan ditambahkan ke setiap objek, memungkinkan untuk mengakses data tanpa hierarki. Semua objek ditempatkan dalam ruang alamat terpadu. Untuk menemukan objek tersebut, pengguna memberikan ID unik.
+
+Cloudian Object Storage menggunakan TCP / IP sebagai transportnya, dan perangkat berkomunikasi menggunakan HTTP dan REST API.
+
+Metadata adalah bagian penting dari teknologi object storage. Metadata ditentukan oleh pengguna, dan data dalam kumpulan penyimpanan dapat dianalisis dan diambil secara fleksibel sesuai dengan fungsi dan karakteristik kumpulan penyimpanan.
+
+Keuntungan utama dari Cloudian object storage adalah pengguna dapat mengelompokkan perangkat penyimpanan objek ke dalam set penyimpanan yang besar dan mendistribusikan set tersebut di beberapa lokasi. Ini tidak hanya memungkinkan perluasan tanpa batas, tetapi juga meningkatkan ketahanan dan ketersediaan data yang tinggi.
+
+File Storage menyimpan data dalam folder. Metode ini disebut juga penyimpanan hierarkis, yang mensimulasikan penyimpanan dokumen kertas. Saat Anda perlu mengakses data, sistem komputer harus menggunakan jalur dalam struktur folder untuk mencari, file storage menggunakan TCP / IP sebagai metode transmisi, dan perangkat biasanya menggunakan protokol NFS di Linux dan SMB di Windows.
+
+Block Storage membagi file menjadi blok data terpisah dan menyimpan masing-masing blok ini sebagai unit data terpisah. Setiap blok memiliki alamat, sehingga sistem penyimpanan dapat menemukan data tanpa mencari jalur folder tersebut. Ini juga memungkinkan data untuk dipecah menjadi bagian-bagian yang lebih kecil dan disimpan secara terdistribusi. Setiap kali file diakses, perangkat lunak sistem penyimpanan mengumpulkan file dari blok yang diperlukan. Block Storage menggunakan FC atau iSCSI untuk transportasi, dan perangkat beroperasi sebagai penyimpanan terpasang langsung atau melalui jaringan area penyimpanan (SAN).
+
+Apa saja manfaat menggunakan Cloudian Object Storage yang perlu Anda ketahui?
+
+Tingkat keandalan yang tinggi (Highly Reliable)
+Seiring perkembangan teknologi, penyimpanan data yang dapat diandalkan sangat diperlukan untuk mangatasi perubahan agar dapat beradaptasi dengan baik. Dengan adanya storage yang flexible, pelaku usaha dapat mengatur besar dan kecilnya storage sesuai dengan kebutuhan perusahaan..
+Menghemat Biaya CapEX dan OpEX
+Dengan memakai Object Storage, perusahaan dapat menghemat biaya dengan tidak mengeluarkan biaya OpEX untuk membeli hardware storage dan menghemat biaya OpEX. Sehingga perusahaan hanya mengeluarkan biaya sesuai kebutuhan dan melakukan efisiensi biaya yang maksimal.
+Data Terlindungi
+Melindungi data walaupun terdapat kegagalan pada satu node atau lebih, data akan tetap available dengan menggunakan sistem cluster.
+
+Melindungi data dari hardware failur dan badsector.
+Design dan pendistribusian dibuat untuk high availability dan durable.
+Oleh karena itu, Indonesian Cloud menyediakan layanan Object Storage yang dikembangkan oleh Cloudian, yaitu Cloudian Object Storage yang akan membantu perusahaan Anda untuk membuat pengeluaran biaya menjadi sesuai dengan kebutuhan dan biaya pengeluaran menjadi lebih efisien.
