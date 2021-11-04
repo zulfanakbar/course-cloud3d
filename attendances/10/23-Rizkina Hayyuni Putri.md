@@ -48,4 +48,3 @@ Dockerfile adalah sebuah teks dokumen yang berisi semua perintah yang dapat dipa
 - **ADD/COPY**: untuk menambahkan file pada lokasi folder tertentu
 - **CMD**: untuk menjalankan command tertentu
 - **ENTRYPOINT**: untuk menjalankan script tertentu ketika docker booting
-
